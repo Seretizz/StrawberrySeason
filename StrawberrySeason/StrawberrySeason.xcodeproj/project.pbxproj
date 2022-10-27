@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B07494B290AB5920030C912 /* StrawberrySeasonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07494A290AB5920030C912 /* StrawberrySeasonApp.swift */; };
+		7B07494D290AB5920030C912 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07494C290AB5920030C912 /* ContentView.swift */; };
+		7B07494F290AB5930030C912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B07494E290AB5930030C912 /* Assets.xcassets */; };
+		7B074952290AB5930030C912 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B074951290AB5930030C912 /* Preview Assets.xcassets */; };
+		7B07495C290AB5930030C912 /* StrawberrySeasonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07495B290AB5930030C912 /* StrawberrySeasonTests.swift */; };
+		7B074966290AB5930030C912 /* StrawberrySeasonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B074965290AB5930030C912 /* StrawberrySeasonUITests.swift */; };
+		7B074968290AB5930030C912 /* StrawberrySeasonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B074967290AB5930030C912 /* StrawberrySeasonUITestsLaunchTests.swift */; };
+		7B074978290AB69E0030C912 /* InfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B074977290AB69E0030C912 /* InfoCard.swift */; };
+		7B07497A290AB6AB0030C912 /* ChapterOneView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B074979290AB6AB0030C912 /* ChapterOneView2.swift */; };
+		7B07497C290AB6BA0030C912 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07497B290AB6BA0030C912 /* NavigationBar.swift */; };
+		7B07497E290AC5290030C912 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07497D290AC5290030C912 /* Chapter.swift */; };
+		7B074982290AC5BD0030C912 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B074981290AC5BD0030C912 /* PlayButton.swift */; };
+		7B074986290AC5E50030C912 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B074985290AC5E50030C912 /* Database.swift */; };
+		7BA9D578290ADDAF0024E558 /* Chapter1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA9D577290ADDAF0024E558 /* Chapter1.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B074958290AB5930030C912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B07493F290AB5920030C912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B074946290AB5920030C912;
+			remoteInfo = StrawberrySeason;
+		};
+		7B074962290AB5930030C912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B07493F290AB5920030C912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B074946290AB5920030C912;
+			remoteInfo = StrawberrySeason;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B074947290AB5920030C912 /* StrawberrySeason.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrawberrySeason.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B07494A290AB5920030C912 /* StrawberrySeasonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawberrySeasonApp.swift; sourceTree = "<group>"; };
+		7B07494C290AB5920030C912 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7B07494E290AB5930030C912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B074951290AB5930030C912 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B074957290AB5930030C912 /* StrawberrySeasonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrawberrySeasonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B07495B290AB5930030C912 /* StrawberrySeasonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawberrySeasonTests.swift; sourceTree = "<group>"; };
+		7B074961290AB5930030C912 /* StrawberrySeasonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrawberrySeasonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B074965290AB5930030C912 /* StrawberrySeasonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawberrySeasonUITests.swift; sourceTree = "<group>"; };
+		7B074967290AB5930030C912 /* StrawberrySeasonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawberrySeasonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B074977290AB69E0030C912 /* InfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCard.swift; sourceTree = "<group>"; };
+		7B074979290AB6AB0030C912 /* ChapterOneView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterOneView2.swift; sourceTree = "<group>"; };
+		7B07497B290AB6BA0030C912 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		7B07497D290AC5290030C912 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		7B074981290AC5BD0030C912 /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		7B074985290AC5E50030C912 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		7BA9D577290ADDAF0024E558 /* Chapter1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter1.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B074944290AB5920030C912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B074954290AB5930030C912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B07495E290AB5930030C912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B07493E290AB5920030C912 = {
+			isa = PBXGroup;
+			children = (
+				7B074949290AB5920030C912 /* StrawberrySeason */,
+				7B07495A290AB5930030C912 /* StrawberrySeasonTests */,
+				7B074964290AB5930030C912 /* StrawberrySeasonUITests */,
+				7B074948290AB5920030C912 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B074948290AB5920030C912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B074947290AB5920030C912 /* StrawberrySeason.app */,
+				7B074957290AB5930030C912 /* StrawberrySeasonTests.xctest */,
+				7B074961290AB5930030C912 /* StrawberrySeasonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B074949290AB5920030C912 /* StrawberrySeason */ = {
+			isa = PBXGroup;
+			children = (
+				7B07494A290AB5920030C912 /* StrawberrySeasonApp.swift */,
+				7B07494E290AB5930030C912 /* Assets.xcassets */,
+				7B074975290AB5A60030C912 /* Navigation */,
+				7B074974290AB5A00030C912 /* Components */,
+				7B074976290AB5AC0030C912 /* Views */,
+				7B074950290AB5930030C912 /* Preview Content */,
+			);
+			path = StrawberrySeason;
+			sourceTree = "<group>";
+		};
+		7B074950290AB5930030C912 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B074951290AB5930030C912 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B07495A290AB5930030C912 /* StrawberrySeasonTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B07495B290AB5930030C912 /* StrawberrySeasonTests.swift */,
+			);
+			path = StrawberrySeasonTests;
+			sourceTree = "<group>";
+		};
+		7B074964290AB5930030C912 /* StrawberrySeasonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B074965290AB5930030C912 /* StrawberrySeasonUITests.swift */,
+				7B074967290AB5930030C912 /* StrawberrySeasonUITestsLaunchTests.swift */,
+			);
+			path = StrawberrySeasonUITests;
+			sourceTree = "<group>";
+		};
+		7B074974290AB5A00030C912 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7B074977290AB69E0030C912 /* InfoCard.swift */,
+				7B07497D290AC5290030C912 /* Chapter.swift */,
+				7B074981290AC5BD0030C912 /* PlayButton.swift */,
+				7B074985290AC5E50030C912 /* Database.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7B074975290AB5A60030C912 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				7B07497B290AB6BA0030C912 /* NavigationBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		7B074976290AB5AC0030C912 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7B07494C290AB5920030C912 /* ContentView.swift */,
+				7BA9D577290ADDAF0024E558 /* Chapter1.swift */,
+				7B074979290AB6AB0030C912 /* ChapterOneView2.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B074946290AB5920030C912 /* StrawberrySeason */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B07496B290AB5930030C912 /* Build configuration list for PBXNativeTarget "StrawberrySeason" */;
+			buildPhases = (
+				7B074943290AB5920030C912 /* Sources */,
+				7B074944290AB5920030C912 /* Frameworks */,
+				7B074945290AB5920030C912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrawberrySeason;
+			productName = StrawberrySeason;
+			productReference = 7B074947290AB5920030C912 /* StrawberrySeason.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B074956290AB5930030C912 /* StrawberrySeasonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B07496E290AB5930030C912 /* Build configuration list for PBXNativeTarget "StrawberrySeasonTests" */;
+			buildPhases = (
+				7B074953290AB5930030C912 /* Sources */,
+				7B074954290AB5930030C912 /* Frameworks */,
+				7B074955290AB5930030C912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B074959290AB5930030C912 /* PBXTargetDependency */,
+			);
+			name = StrawberrySeasonTests;
+			productName = StrawberrySeasonTests;
+			productReference = 7B074957290AB5930030C912 /* StrawberrySeasonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B074960290AB5930030C912 /* StrawberrySeasonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B074971290AB5930030C912 /* Build configuration list for PBXNativeTarget "StrawberrySeasonUITests" */;
+			buildPhases = (
+				7B07495D290AB5930030C912 /* Sources */,
+				7B07495E290AB5930030C912 /* Frameworks */,
+				7B07495F290AB5930030C912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B074963290AB5930030C912 /* PBXTargetDependency */,
+			);
+			name = StrawberrySeasonUITests;
+			productName = StrawberrySeasonUITests;
+			productReference = 7B074961290AB5930030C912 /* StrawberrySeasonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B07493F290AB5920030C912 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					7B074946290AB5920030C912 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					7B074956290AB5930030C912 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 7B074946290AB5920030C912;
+					};
+					7B074960290AB5930030C912 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 7B074946290AB5920030C912;
+					};
+				};
+			};
+			buildConfigurationList = 7B074942290AB5920030C912 /* Build configuration list for PBXProject "StrawberrySeason" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B07493E290AB5920030C912;
+			productRefGroup = 7B074948290AB5920030C912 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B074946290AB5920030C912 /* StrawberrySeason */,
+				7B074956290AB5930030C912 /* StrawberrySeasonTests */,
+				7B074960290AB5930030C912 /* StrawberrySeasonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B074945290AB5920030C912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B074952290AB5930030C912 /* Preview Assets.xcassets in Resources */,
+				7B07494F290AB5930030C912 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B074955290AB5930030C912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B07495F290AB5930030C912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B074943290AB5920030C912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B07497C290AB6BA0030C912 /* NavigationBar.swift in Sources */,
+				7B074982290AC5BD0030C912 /* PlayButton.swift in Sources */,
+				7B07497A290AB6AB0030C912 /* ChapterOneView2.swift in Sources */,
+				7B07494D290AB5920030C912 /* ContentView.swift in Sources */,
+				7B07497E290AC5290030C912 /* Chapter.swift in Sources */,
+				7BA9D578290ADDAF0024E558 /* Chapter1.swift in Sources */,
+				7B074978290AB69E0030C912 /* InfoCard.swift in Sources */,
+				7B074986290AC5E50030C912 /* Database.swift in Sources */,
+				7B07494B290AB5920030C912 /* StrawberrySeasonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B074953290AB5930030C912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B07495C290AB5930030C912 /* StrawberrySeasonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B07495D290AB5930030C912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B074968290AB5930030C912 /* StrawberrySeasonUITestsLaunchTests.swift in Sources */,
+				7B074966290AB5930030C912 /* StrawberrySeasonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B074959290AB5930030C912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B074946290AB5920030C912 /* StrawberrySeason */;
+			targetProxy = 7B074958290AB5930030C912 /* PBXContainerItemProxy */;
+		};
+		7B074963290AB5930030C912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B074946290AB5920030C912 /* StrawberrySeason */;
+			targetProxy = 7B074962290AB5930030C912 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7B074969290AB5930030C912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B07496A290AB5930030C912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B07496C290AB5930030C912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StrawberrySeason/Preview Content\"";
+				DEVELOPMENT_TEAM = W69VWCTUW6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sss.StrawberrySeason;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B07496D290AB5930030C912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StrawberrySeason/Preview Content\"";
+				DEVELOPMENT_TEAM = W69VWCTUW6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sss.StrawberrySeason;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B07496F290AB5930030C912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W69VWCTUW6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sss.StrawberrySeasonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StrawberrySeason.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StrawberrySeason";
+			};
+			name = Debug;
+		};
+		7B074970290AB5930030C912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W69VWCTUW6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sss.StrawberrySeasonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StrawberrySeason.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StrawberrySeason";
+			};
+			name = Release;
+		};
+		7B074972290AB5930030C912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W69VWCTUW6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sss.StrawberrySeasonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StrawberrySeason;
+			};
+			name = Debug;
+		};
+		7B074973290AB5930030C912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W69VWCTUW6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sss.StrawberrySeasonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StrawberrySeason;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B074942290AB5920030C912 /* Build configuration list for PBXProject "StrawberrySeason" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B074969290AB5930030C912 /* Debug */,
+				7B07496A290AB5930030C912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B07496B290AB5930030C912 /* Build configuration list for PBXNativeTarget "StrawberrySeason" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B07496C290AB5930030C912 /* Debug */,
+				7B07496D290AB5930030C912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B07496E290AB5930030C912 /* Build configuration list for PBXNativeTarget "StrawberrySeasonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B07496F290AB5930030C912 /* Debug */,
+				7B074970290AB5930030C912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B074971290AB5930030C912 /* Build configuration list for PBXNativeTarget "StrawberrySeasonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B074972290AB5930030C912 /* Debug */,
+				7B074973290AB5930030C912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B07493F290AB5920030C912 /* Project object */;
+}
