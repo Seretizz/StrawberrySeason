@@ -10,3 +10,8 @@ import Foundation
 var chap1 = Chapter(title: "Chapter 1: ", description: "How the body changes during puberty", image: "FirstChapt")
 var chap2 = Chapter(title: "Chapter 2: ", description: "The menstruation cycle", image: "FirstChapt")
 var chap3 = Chapter(title: "Chapter 3: ", description: "Different ways to manage menstrual flow", image: "FirstChapt")
+
+
+var hair:Int=1
+var breast:Int=1
+var skin:Int=1

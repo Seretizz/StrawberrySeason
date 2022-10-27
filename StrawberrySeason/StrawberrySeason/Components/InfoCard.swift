@@ -43,14 +43,7 @@ struct InfoCard: View {
                         }
                     }
                     
-                    Button(action: {
-                                   print("Pressed!")
-                               }){
-                                  Text("Chapter 1")
-                                  .frame(width: 70, height: 70)
-                                  .foregroundColor(Color.black)
-                                  .clipShape(Circle())
-                               }.offset(x:70)
+                 
                 }
           
                 

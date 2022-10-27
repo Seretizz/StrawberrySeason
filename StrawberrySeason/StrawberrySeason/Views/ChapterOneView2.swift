@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ChapterOneView2: View {
+    
+    @State private var show_modal: Bool = false
+    
     var body: some View {
      //   NavigationView {
             ZStack {
@@ -17,8 +20,23 @@ struct ChapterOneView2: View {
                 
                 VStack {
                    InfoCard()
+                    
+                    
+                
                 }
                 .padding(.top, 50)
+                
+                Button(action: {
+                        
+                            self.show_modal = true
+                            hair=1
+                        
+
+                    }) {Text("  ")
+                    }.sheet(isPresented: self.$show_modal) {
+                        ModalView()
+                    }.clipShape(Circle())
+                    .offset(x:80, y:-10)
             
             }
            .overlay(
@@ -27,6 +45,8 @@ struct ChapterOneView2: View {
       //  }
     }
 }
+
+
 
 struct ChapterOne_Previews: PreviewProvider {
     static var previews: some View {

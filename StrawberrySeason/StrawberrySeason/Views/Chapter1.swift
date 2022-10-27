@@ -30,7 +30,6 @@ struct Chapter1: View {
                  
                 }
             }
-            .navigationBarHidden(true)
             .overlay(
             NavigationBar()
             )
