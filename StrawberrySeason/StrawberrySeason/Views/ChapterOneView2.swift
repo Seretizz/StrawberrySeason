@@ -47,6 +47,16 @@ struct ChapterOneView2: View {
                     .offset(x:80, y:-200)
             
             }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar(content: {
+                ToolbarItem(placement: .principal) {
+                
+                    Text("Chapter One")
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
+                }
+            })
            .overlay(
            NavigationBar()
         )

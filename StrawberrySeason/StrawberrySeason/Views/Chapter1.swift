@@ -30,6 +30,16 @@ struct Chapter1: View {
                  
                 }
             }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar(content: {
+                ToolbarItem(placement: .principal) {
+                
+                    Text("Chapter One")
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
+                }
+            })
             .overlay(
             NavigationBar()
             )
@@ -41,6 +51,9 @@ struct Chapter1: View {
 
 struct Chapter1_Previews: PreviewProvider {
     static var previews: some View {
-        Chapter1()
+        NavigationStack {
+            Chapter1()
+        }
+        
     }
 }
