@@ -44,6 +44,7 @@ struct ModalViewH: View {
                 Image("BerryBlink")
                     .resizable()
                     .frame(width: 200, height: 250)
+                    .shadow(radius: 5.0)
                     .offset(x:100, y:-30)
                 Spacer()
             }

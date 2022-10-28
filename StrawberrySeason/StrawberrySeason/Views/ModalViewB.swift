@@ -36,6 +36,7 @@ struct ModalViewB: View {
                 Image("WalkingBerry")
                     .resizable()
                     .frame(width: 150, height: 190)
+                    .shadow(radius: 5.0)
                     .offset(x:-95, y:-25)
                 Spacer()
             }

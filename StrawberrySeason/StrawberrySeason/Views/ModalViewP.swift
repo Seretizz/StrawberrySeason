@@ -45,6 +45,7 @@ struct ModalViewP: View {
                 Image("BerryPimples")
                     .resizable()
                     .frame(width: 150, height: 200)
+                    .shadow(radius: 5.0)
                     .offset(x: -80, y: -20)
                 
                 Spacer()
