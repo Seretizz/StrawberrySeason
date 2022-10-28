@@ -21,8 +21,10 @@ struct Chapter1: View {
                    
                   
                     
-                    NavigationLink("Play!", destination: ChapterOneView2())
-                        .buttonStyle(PlayButton()).frame(maxHeight: .infinity, alignment: .bottom)
+                    NavigationLink("Play", destination: ChapterOneView2())
+                        .buttonStyle(PlayButton())
+                        .shadow(radius: 5.0)
+                        .frame(maxHeight: .infinity, alignment: .bottom)
                     
                     
                     
