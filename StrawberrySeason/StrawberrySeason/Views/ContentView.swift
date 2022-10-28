@@ -38,7 +38,7 @@ struct ContentView: View {
                         .offset(x: 0, y: 500)
                     Image("BerryPath")
                         .resizable()
-                        .frame(width: 150, height: 200)
+                        .frame(width: 150, height: 190)
                         .offset(x: -80, y: 200)
                     Image("Baloon")
                         .offset(x: 80, y: 70)
