@@ -17,9 +17,29 @@ struct ModalViewP: View {
           //  }) {
           //      Text("Dismiss")
           //  }.padding(.bottom, 50)
+            
             Image("Pimples")
-                .frame(width: 200, height: 200)
-            Text("This is a modal")
+                .resizable()
+                .frame(width: 250, height: 250)
+                .padding(.top, 50)
+            
+            Spacer()
+            
+            Text("Pimples")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .padding()
+            
+            Text("Teens get acne for a number of reasons, but the most common reason is puberty. Your hormone levels are going through changes, which can lead to increased oil production in the skin’s pores and hair follicles.")
+                .font(.title3)
+                .frame(width: 350)
+            
+                Image("BerryPimples")
+                    .resizable()
+                    .frame(width: 150, height: 190)
+                    .offset(x: -100, y: 10)
+            
+            Spacer()
         }
     }
 }
