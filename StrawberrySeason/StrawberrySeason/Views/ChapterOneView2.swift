@@ -15,10 +15,9 @@ struct ChapterOneView2: View {
     
     @State var foundAllDifferences: Bool = false
     
-    @State var didFindPimple: Bool=false
-    @State var didFindHair: Bool=false
-    @State var didFindBreast: Bool=false
-    
+    @State var didFindPimple: Bool = false
+    @State var didFindHair: Bool = false
+    @State var didFindBreast: Bool = false
     
     
     
@@ -36,12 +35,9 @@ struct ChapterOneView2: View {
                 
                 //BUTTON HAIR
                 Button(action: {
-                    
                         self.show_modalH = true
                         didFindHair=true
-                    
                     checkNavigation()
-                    
                             }) {Text("  ")
                     }.sheet(isPresented: self.$show_modalH) {
                         ModalViewH()
@@ -50,12 +46,9 @@ struct ChapterOneView2: View {
                 
                 //BUTTON PIPMLE
                 Button(action: {
-                    
                         self.show_modalP = true
                         didFindPimple=true
-                    
                     checkNavigation()
-                    
                             }) {Text("   ")
                     }.sheet(isPresented: self.$show_modalP) {
                         ModalViewP()
@@ -64,20 +57,16 @@ struct ChapterOneView2: View {
                 
                 //BUTTON BREAST
                 Button(action: {
-                    
-                        self.show_modalB = true
                         didFindBreast=true
-                    
+                    self.show_modalB = true
                     checkNavigation()
+                  
                     
                             }) {Text("XXXX")
                     }.sheet(isPresented: self.$show_modalB) {
                         ModalViewB()
                     }.clipShape(Circle())
                     .offset(x:80, y:-120)
-                
-                
-               
                 
             }
             .navigationBarTitleDisplayMode(.inline)
@@ -92,7 +81,7 @@ struct ChapterOneView2: View {
             })
            .overlay(NavigationBar())
            .navigationDestination(isPresented: $foundAllDifferences) {
-               ContentView()
+               ChapterOneFinalView()
            }
       }
     //}
@@ -102,6 +91,8 @@ struct ChapterOneView2: View {
             foundAllDifferences = true
         }
     }
+    
+    //&& !show_modalP && !show_modalH && !show_modalB 
     
 
 }
