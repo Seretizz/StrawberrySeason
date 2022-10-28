@@ -35,14 +35,16 @@ struct ModalViewH: View {
                     .fontWeight(.bold)
                     .padding()
                 
-                Text("Pubic hair will start growing along the labia and will gradually become thicker, curlier, and cover a larger area of the vulva. In the final stages of puberty, pubic hair may grow around the top of the thighs.")
-                    .font(.title3)
-                   .frame(width: 350)
+                ScrollView {
+                    Text("Pubic hair will start growing along the labia and will gradually become thicker, curlier, and cover a larger area of the vulva. In the final stages of puberty, pubic hair may grow around the top of the thighs.")
+                        .font(.title)
+                    .frame(width: 350)
+                }
                
                 Image("BerryBlink")
                     .resizable()
                     .frame(width: 200, height: 250)
-                    .offset(x:100, y:-10)
+                    .offset(x:100, y:-30)
                 Spacer()
             }
         }
