@@ -11,12 +11,14 @@ import SwiftUI
 struct PlayButton: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .frame(width: 300, height: 25)
+            .frame(width: 100, height: 25)
             .padding()
-            .background(Color.yellow)
+            .background(Color("Button"))
             .foregroundColor(.black)
             .clipShape(Capsule())
-        
+            
 
     }
 }
+
+

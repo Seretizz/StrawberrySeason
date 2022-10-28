@@ -50,6 +50,7 @@ struct ContentView: View {
                     
                     NavigationLink("Chapter One", destination: Chapter1())
                         .buttonStyle(PlayButton())
+                        .shadow(radius: 5.0)
                         .padding(.bottom, 60)
                         .frame(maxHeight: .infinity, alignment: .bottom)
                     
