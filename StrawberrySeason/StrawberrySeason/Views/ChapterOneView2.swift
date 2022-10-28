@@ -13,8 +13,17 @@ struct ChapterOneView2: View {
     @State private var show_modalP: Bool = false
     @State private var show_modalB: Bool = false
     
+    @State var foundAllDifferences: Bool = false
+    
+    @State var didFindPimple: Bool=false
+    @State var didFindHair: Bool=false
+    @State var didFindBreast: Bool=false
+    
+    
+    
+    
     var body: some View {
-     //   NavigationView {
+      //NavigationView {
             ZStack {
                 Image("Background")
                     .resizable()
@@ -27,41 +36,64 @@ struct ChapterOneView2: View {
                 
                 //BUTTON HAIR
                 Button(action: {
-                    if hair==0 {
+                    
                         self.show_modalH = true
-                        hair=1
-                    }
+                        didFindHair=true
+                    
+                    checkNavigation()
+                    
                             }) {Text("  ")
                     }.sheet(isPresented: self.$show_modalH) {
                         ModalViewH()
                     }.clipShape(Circle())
                     .offset(x:80, y:-10)
                 
-                //BUTTON PIMPLE
+                //BUTTON PIPMLE
                 Button(action: {
-                            self.show_modalP = true
-                            pimple=1}) {Text("   ")
+                    
+                        self.show_modalP = true
+                        didFindPimple=true
+                    
+                    checkNavigation()
+                    
+                            }) {Text("   ")
                     }.sheet(isPresented: self.$show_modalP) {
                         ModalViewP()
                     }.clipShape(Circle())
                     .offset(x:80, y:-200)
                 
-            }
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar(content: {
-                ToolbarItem(placement: .principal) {
+                //BUTTON BREAST
+                Button(action: {
+                    
+                        self.show_modalB = true
+                        didFindBreast=true
+                    
+                    checkNavigation()
+                    
+                            }) {Text("XXXX")
+                    }.sheet(isPresented: self.$show_modalB) {
+                        ModalViewB()
+                    }.clipShape(Circle())
+                    .offset(x:80, y:-120)
                 
-                    Text("Chapter One")
-                        .font(.title)
-                        .fontWeight(.bold)
-                        .foregroundColor(.white)
-                }
-            })
-           .overlay(
-           NavigationBar()
-        )
-      //  }
+                
+               
+                
+            }
+           .overlay(NavigationBar())
+           .navigationDestination(isPresented: $foundAllDifferences) {
+               ContentView()
+           }
+      }
+    //}
+    
+    func checkNavigation() {
+        if didFindHair && didFindBreast && didFindPimple {
+            foundAllDifferences = true
+        }
     }
+    
+
 }
 
 
@@ -71,3 +103,5 @@ struct ChapterOne_Previews: PreviewProvider {
         ChapterOneView2()
     }
 }
+
+
