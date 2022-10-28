@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D2C15B9290C07DB00E5173A /* ModalViewP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2C15B8290C07DB00E5173A /* ModalViewP.swift */; };
 		7B07494B290AB5920030C912 /* StrawberrySeasonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07494A290AB5920030C912 /* StrawberrySeasonApp.swift */; };
 		7B07494D290AB5920030C912 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07494C290AB5920030C912 /* ContentView.swift */; };
 		7B07494F290AB5930030C912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B07494E290AB5930030C912 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D2C15B8290C07DB00E5173A /* ModalViewP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewP.swift; sourceTree = "<group>"; };
 		7B074947290AB5920030C912 /* StrawberrySeason.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrawberrySeason.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B07494A290AB5920030C912 /* StrawberrySeasonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawberrySeasonApp.swift; sourceTree = "<group>"; };
 		7B07494C290AB5920030C912 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				7BA9D577290ADDAF0024E558 /* Chapter1.swift */,
 				7B074979290AB6AB0030C912 /* ChapterOneView2.swift */,
 				FAC07A23290B14FD00EBB857 /* ModalView.swift */,
+				5D2C15B8290C07DB00E5173A /* ModalViewP.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				7B07494D290AB5920030C912 /* ContentView.swift in Sources */,
 				FAC07A24290B14FD00EBB857 /* ModalView.swift in Sources */,
 				7B07497E290AC5290030C912 /* Chapter.swift in Sources */,
+				5D2C15B9290C07DB00E5173A /* ModalViewP.swift in Sources */,
 				7BA9D578290ADDAF0024E558 /* Chapter1.swift in Sources */,
 				7B074978290AB69E0030C912 /* InfoCard.swift in Sources */,
 				7B074986290AC5E50030C912 /* Database.swift in Sources */,
