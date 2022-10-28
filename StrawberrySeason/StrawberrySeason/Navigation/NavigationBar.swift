@@ -13,7 +13,7 @@ struct NavigationBar: View {
             Color.clear
                 .background(.ultraThinMaterial)
                 .blur(radius: 10)
-            Text("1. Chapter One")
+            Text("Chapter One")
                 .foregroundColor(.white)
                 .font(.largeTitle .weight(.bold))
                 .frame(maxWidth: .infinity, alignment: .leading)

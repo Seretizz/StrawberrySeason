@@ -22,7 +22,7 @@
 		7B074982290AC5BD0030C912 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B074981290AC5BD0030C912 /* PlayButton.swift */; };
 		7B074986290AC5E50030C912 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B074985290AC5E50030C912 /* Database.swift */; };
 		7BA9D578290ADDAF0024E558 /* Chapter1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA9D577290ADDAF0024E558 /* Chapter1.swift */; };
-		FAC07A24290B14FD00EBB857 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC07A23290B14FD00EBB857 /* ModalView.swift */; };
+		FAC07A24290B14FD00EBB857 /* ModalViewH.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC07A23290B14FD00EBB857 /* ModalViewH.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +61,7 @@
 		7B074981290AC5BD0030C912 /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
 		7B074985290AC5E50030C912 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		7BA9D577290ADDAF0024E558 /* Chapter1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter1.swift; sourceTree = "<group>"; };
-		FAC07A23290B14FD00EBB857 /* ModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		FAC07A23290B14FD00EBB857 /* ModalViewH.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewH.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -312,7 +312,7 @@
 				7B074982290AC5BD0030C912 /* PlayButton.swift in Sources */,
 				7B07497A290AB6AB0030C912 /* ChapterOneView2.swift in Sources */,
 				7B07494D290AB5920030C912 /* ContentView.swift in Sources */,
-				FAC07A24290B14FD00EBB857 /* ModalView.swift in Sources */,
+				FAC07A24290B14FD00EBB857 /* ModalViewH.swift in Sources */,
 				7B07497E290AC5290030C912 /* Chapter.swift in Sources */,
 				5D2C15B9290C07DB00E5173A /* ModalViewP.swift in Sources */,
 				7BA9D578290ADDAF0024E558 /* Chapter1.swift in Sources */,
