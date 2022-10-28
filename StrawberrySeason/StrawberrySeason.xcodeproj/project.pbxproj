@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5049AABD290C10F1009F09D4 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5049AABC290C10F1009F09D4 /* Lottie */; };
 		5D2C15B9290C07DB00E5173A /* ModalViewP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2C15B8290C07DB00E5173A /* ModalViewP.swift */; };
+		5DEFC2C4290C26E50030D390 /* ChapterOneFinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEFC2C3290C26E50030D390 /* ChapterOneFinalView.swift */; };
 		7B07494B290AB5920030C912 /* StrawberrySeasonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07494A290AB5920030C912 /* StrawberrySeasonApp.swift */; };
 		7B07494D290AB5920030C912 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07494C290AB5920030C912 /* ContentView.swift */; };
 		7B07494F290AB5930030C912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B07494E290AB5930030C912 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		5D2C15B8290C07DB00E5173A /* ModalViewP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewP.swift; sourceTree = "<group>"; };
+		5DEFC2C3290C26E50030D390 /* ChapterOneFinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterOneFinalView.swift; sourceTree = "<group>"; };
 		7B074947290AB5920030C912 /* StrawberrySeason.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrawberrySeason.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B07494A290AB5920030C912 /* StrawberrySeasonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawberrySeasonApp.swift; sourceTree = "<group>"; };
 		7B07494C290AB5920030C912 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				FAC07A23290B14FD00EBB857 /* ModalViewH.swift */,
 				5D2C15B8290C07DB00E5173A /* ModalViewP.swift */,
 				7B22D071290C12E80066F899 /* ModalViewB.swift */,
+				5DEFC2C3290C26E50030D390 /* ChapterOneFinalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				FAC07A24290B14FD00EBB857 /* ModalViewH.swift in Sources */,
 				7B22D072290C12E80066F899 /* ModalViewB.swift in Sources */,
 				7B07497E290AC5290030C912 /* Chapter.swift in Sources */,
+				5DEFC2C4290C26E50030D390 /* ChapterOneFinalView.swift in Sources */,
 				5D2C15B9290C07DB00E5173A /* ModalViewP.swift in Sources */,
 				7BA9D578290ADDAF0024E558 /* Chapter1.swift in Sources */,
 				7B074978290AB69E0030C912 /* InfoCard.swift in Sources */,

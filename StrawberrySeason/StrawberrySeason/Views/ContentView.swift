@@ -17,7 +17,6 @@ struct ContentView: View {
                        .resizable()
                        .frame(width: 400, height: 900)
                     
-                    
                     Image("Moon")
                         .resizable()
                         .frame(width: 150, height: 150)
