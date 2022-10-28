@@ -80,6 +80,16 @@ struct ChapterOneView2: View {
                
                 
             }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar(content: {
+                ToolbarItem(placement: .principal) {
+                
+                    Text("Chapter One")
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
+                }
+            })
            .overlay(NavigationBar())
            .navigationDestination(isPresented: $foundAllDifferences) {
                ContentView()
