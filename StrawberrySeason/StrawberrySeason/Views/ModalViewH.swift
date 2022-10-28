@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ModalView: View {
+struct ModalViewH: View {
     @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
@@ -23,8 +23,8 @@ struct ModalView: View {
     }
 }
 
-struct ModalView_Previews: PreviewProvider {
+struct ModalViewH_Previews: PreviewProvider {
     static var previews: some View {
-        ModalView()
+        ModalViewH()
     }
 }

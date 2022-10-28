@@ -34,7 +34,7 @@ struct ChapterOneView2: View {
 
                     }) {Text("  ")
                     }.sheet(isPresented: self.$show_modal) {
-                        ModalView()
+                        ModalViewH()
                     }.clipShape(Circle())
                     .offset(x:80, y:-10)
             
