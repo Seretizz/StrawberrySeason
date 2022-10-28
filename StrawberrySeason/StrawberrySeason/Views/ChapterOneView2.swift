@@ -45,7 +45,7 @@ struct ChapterOneView2: View {
                         ModalViewP()
                     }.clipShape(Circle())
                     .offset(x:80, y:-200)
-            
+                
             }
            .overlay(
            NavigationBar()
