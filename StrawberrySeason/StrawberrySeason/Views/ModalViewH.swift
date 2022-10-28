@@ -18,6 +18,8 @@ struct ModalViewH: View {
           //  }) {
           //      Text("Dismiss")
           //  }.padding(.bottom, 50)
+            Image("PubicHair")
+               
             Text("This is a modal")
         }
     }
