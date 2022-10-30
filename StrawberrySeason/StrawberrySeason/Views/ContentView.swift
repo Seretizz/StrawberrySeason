@@ -42,6 +42,7 @@ struct ContentView: View {
                     Image("Baloon")
                         .offset(x: 80, y: 70)
                     Text("Let's start our adventure!")
+                        .multilineTextAlignment(.center)
                         .frame(width: 150, height: 100)
                         .offset(x: 80, y: 70)
                     

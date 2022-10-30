@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct InfoCard: View {
+    
+    
     var body: some View {
         ZStack{
             
@@ -56,7 +58,7 @@ struct InfoCard: View {
                     .frame(width: 650, height: 750)
                     .position(x: 120, y: 370)
                 
-                Text("Tap on the grown body’s parts that are different compared to the kid ones.")
+                Text("Tap on the grown body’s parts that are different compared to the kid ones. \(differencesLeft) left!")
                     .multilineTextAlignment(.center)
                     .frame(width: 220, height: 250)
                     .font(.system(size: 23))

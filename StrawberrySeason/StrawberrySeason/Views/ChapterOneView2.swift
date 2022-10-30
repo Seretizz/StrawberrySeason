@@ -35,10 +35,16 @@ struct ChapterOneView2: View {
                 
                 //BUTTON HAIR
                 Button(action: {
+                    if !didFindHair {
                         self.show_modalH = true
                         didFindHair=true
                     checkNavigation()
-                            }) {Text("  ")
+                        
+                        differencesLeft=0
+                        
+                            }
+                    }
+                       ) {Text("  ")
                     }.sheet(isPresented: self.$show_modalH) {
                         ModalViewH()
                     }.clipShape(Circle())
