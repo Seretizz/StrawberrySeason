@@ -13,22 +13,34 @@ struct Bravo: View {
     @State var animationInProgress = false
     
     var body: some View {
+        
+        
         ZStack{
             Image("ScreenImage")
             LottieView()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .edgesIgnoringSafeArea(.all)
-            ZStack{
+            
+            VStack{
+                ZStack{
+                    
+                    LottieView9().frame(height: 70)
+                    LottieView6().frame(height: 70)
+                    LottieView7().frame(height: 70)
+                    LottieView8()
+                  //
+                }
                 
-                LottieView9()
-                LottieView6()
-                LottieView7()
-                LottieView8()
-                
-                
-                
-                
+                NavigationLink("Continue", destination: Chapter1())
+                    .buttonStyle(PlayButton())
+                    .shadow(radius: 5.0)
+                    .offset(y:-50)
+                    
+                    
+                  
             }
+            
+           
             /*/ Spacer()
              Text("Welcome to Menstrufun")
              .font(.largeTitle)
