@@ -19,7 +19,7 @@ struct Chapter1: View {
                     .multilineTextAlignment(.center)
                     .frame(width: 280, height: 250)
                     .font(.system(size: 25))
-                    .offset(x: 10, y: -225)
+                    .offset(x: 10, y: -202)
                 
                 VStack {
                     

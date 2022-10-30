@@ -55,14 +55,14 @@ struct InfoCard: View {
                 
                 Image("Berry2")
                     .resizable()
-                    .frame(width: 650, height: 750)
-                    .position(x: 120, y: 370)
+                    .frame(width: 580, height: 700)
+                    .position(x: 120, y: 340)
                 
                 Text("Tap on the grown body’s parts that are different compared to the kid ones. \(differencesLeft) left!")
                     .multilineTextAlignment(.center)
-                    .frame(width: 220, height: 250)
-                    .font(.system(size: 23))
-                    .position(x: 290, y: -10)
+                    .frame(width: 210, height: 250)
+                    .font(.system(size: 20))
+                    .position(x: 275, y: -10)
                 
                 Spacer()
             }
