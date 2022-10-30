@@ -12,6 +12,5 @@ var chap2 = Chapter(title: "Chapter 2: ", description: "The menstruation cycle",
 var chap3 = Chapter(title: "Chapter 3: ", description: "Different ways to manage menstrual flow", image: "FirstChapt")
 
 
-var hair:Int=0
-var breast:Int=0
-var pimple:Int=0
+
+var differencesLeft:Int = 3

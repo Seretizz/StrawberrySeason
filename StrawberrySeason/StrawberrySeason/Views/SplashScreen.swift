@@ -12,40 +12,53 @@ struct SplashScreen: View {
     @State var animationInProgress = false
     
     var body: some View {
-        ZStack{
-            Image("ScreenImage")
-                .resizable()
-            
+        NavigationStack{
             ZStack{
-                LottieView()
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .edgesIgnoringSafeArea(.all)
-                LottieView10()
-                LottieView2()
-                LottieView3()
-               
-                /*if animationInProgress
-                
-                {LottieView4 (animationInProgress: $animationInProgress)
-                    Button ("Continue-Button.json", action: {
-                        animationInProgress.toggle()
-                    })
-                    .padding()
-
-                }
-              / Spacer()
-                Text("Welcome to Menstrufun")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                
-                
-               /* Image("WELCOME")
+                Image("ScreenImage")
                     .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width:390, height: 550)
-                Spacer()
-                */*/
-            }
+                VStack{
+                    ZStack{
+                        LottieView()
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .edgesIgnoringSafeArea(.all)
+                        LottieView10()
+                        LottieView2()
+                        LottieView3()
+                       
+                        /*if animationInProgress
+                        
+                        {LottieView4 (animationInProgress: $animationInProgress)
+                            Button ("Continue-Button.json", action: {
+                                animationInProgress.toggle()
+                            })
+                            .padding()
+
+                        }
+                      / Spacer()
+                        Text("Welcome to Menstrufun")
+                            .font(.largeTitle)
+                            .fontWeight(.bold)
+                        
+                        
+                       /* Image("WELCOME")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width:390, height: 550)
+                        Spacer()
+                        */*/
+                    }
+                    
+                    NavigationLink("Play", destination: ContentView())
+                        .buttonStyle(PlayButton())
+                        .shadow(radius: 5.0)
+                        .padding(.bottom, 60)
+                        .offset(y:-200)
+                        
+                    
+                }
+        }
+        
+           
             
         }
     }
