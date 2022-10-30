@@ -18,7 +18,7 @@ struct InfoCard: View {
         
                 Text("How the body changes during puberty?")
                         .foregroundColor(.white)
-                        .font(.title2)
+                        .font(.title3)
                         .fontWeight(.semibold)
                         .padding(.top)
                 
