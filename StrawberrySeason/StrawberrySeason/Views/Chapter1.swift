@@ -18,8 +18,8 @@ struct Chapter1: View {
                 Text("Did you know that girls among 8 and 13 years old start to experience many physical and emotional changes?  This phenomenon is called Puberty.")
                     .multilineTextAlignment(.center)
                     .frame(width: 280, height: 250)
-                    .font(.system(size: 25))
-                    .offset(x: 10, y: -225)
+                    .font(.system(size: 23))
+                    .offset(x: 10, y: -202)
                 
                 VStack {
                     
