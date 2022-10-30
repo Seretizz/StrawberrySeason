@@ -33,6 +33,7 @@ struct InfoCard: View {
                             Image("Child")
                                 .resizable()
                                 .frame(width: 100, height: 350)
+                                .offset(y:50)
                             Spacer()
                             
                             Image("Woman")

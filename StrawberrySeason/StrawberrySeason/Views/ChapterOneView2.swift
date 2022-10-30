@@ -81,7 +81,7 @@ struct ChapterOneView2: View {
             })
            .overlay(NavigationBar())
            .navigationDestination(isPresented: $foundAllDifferences) {
-               ChapterOneFinalView()
+               Bravo()
            }
       }
     //}
