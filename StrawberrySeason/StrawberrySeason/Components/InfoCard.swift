@@ -14,11 +14,11 @@ struct InfoCard: View {
             VStack {
                 Spacer()
         
-            Text("How the body changes during puberty?")
-                    .foregroundColor(.white)
-                    .font(.title2)
-                    .fontWeight(.semibold)
-                    .padding(.top)
+                Text("How the body changes during puberty?")
+                        .foregroundColor(.white)
+                        .font(.title2)
+                        .fontWeight(.semibold)
+                        .padding(.top)
                 
                 ZStack {
                     ZStack {
@@ -43,16 +43,24 @@ struct InfoCard: View {
                             Spacer()
                         }
                     }
-                    
-                 
                 }
           
                 
-               Image("Berry")
+               // Image("Berry")
+                //    .resizable()
+                 //   .frame(width: 340, height: 250)
+                //    .position(x:170, y:105)
+                
+                Image("Berry2")
                     .resizable()
-                    .frame(width: 340, height: 250)
-                    .position(x:170, y:105)
-             
+                    .frame(width: 650, height: 750)
+                    .position(x: 120, y: 370)
+                
+                Text("Tap on the grown body’s parts that are different compared to the kid ones.")
+                    .multilineTextAlignment(.center)
+                    .frame(width: 220, height: 250)
+                    .font(.system(size: 23))
+                    .position(x: 290, y: -30)
                 
                 Spacer()
             }
