@@ -15,6 +15,11 @@ struct Chapter1: View {
                 Image("Chapt1")
                     .resizable()
                     .ignoresSafeArea()
+                Text("Did you know that girls among 8 and 13 years old start to experience many physical and emotional changes?  This phenomenon is called Puberty.")
+                    .multilineTextAlignment(.center)
+                    .frame(width: 280, height: 250)
+                    .font(.system(size: 25))
+                    .offset(x: 10, y: -225)
                 
                 VStack {
                     
