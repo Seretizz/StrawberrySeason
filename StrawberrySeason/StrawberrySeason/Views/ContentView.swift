@@ -22,15 +22,45 @@ struct ContentView: View {
                         .frame(width: 150, height: 150)
                         .offset(x: -100, y: -400)
                     
-                    Image("Moon")
-                        .resizable()
-                        .frame(width: 250, height: 250)
-                        .offset(x: 100, y: -300)
+                    ZStack{
+                        Image("Moon")
+                            .resizable()
+                            .frame(width: 250, height: 250)
+                            .offset(x: 100, y: -300)
+                        
+                        Button("Chapter Three") {
+                            /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                        }
+                            .frame(width: 130, height: 50)
+                            .background(.gray)
+                            .foregroundColor(.white)
+                            .clipShape(Capsule())
+                            .shadow(radius: 5.0)
+                            .offset(x:100, y:-300)
+                    }
                     
-                    Image("Moon")
-                        .resizable()
-                        .frame(width: 350, height: 350)
-                        .offset(x: -100, y: -100)
+                   
+                    
+                    ZStack{
+                        Image("Moon")
+                            .resizable()
+                            .frame(width: 350, height: 350)
+                            .offset(x: -100, y: -100)
+                        
+                       Button("Chapter Two") {
+                           /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                       }
+                           .frame(width: 130, height: 50)
+                           .background(Color(.gray))
+                           .foregroundColor(.white)
+                           .clipShape(Capsule())
+                           .shadow(radius: 5.0)
+                           .offset(x:-100, y:-90)
+                         
+                          
+                    }
+                    
+                    
                     Image("Moon")
                         .resizable()
                         .frame(width: 700, height: 700)
