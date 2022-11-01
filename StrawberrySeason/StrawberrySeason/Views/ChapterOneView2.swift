@@ -44,22 +44,24 @@ struct ChapterOneView2: View {
                         
                             }
                     }
-                       ) {Text("  ")
+                       ) {Text("   ")
                     }.sheet(isPresented: self.$show_modalH) {
                         ModalViewH()
                     }.clipShape(Circle())
-                    .offset(x:80, y:-10)
+                    //.offset(x:80, y:-10)
+                    .offset(x: 80, y: -70)
                 
                 //BUTTON PIPMLE
                 Button(action: {
                         self.show_modalP = true
-                        didFindPimple=true
+                        didFindPimple = true
                     checkNavigation()
                             }) {Text("   ")
                     }.sheet(isPresented: self.$show_modalP) {
                         ModalViewP()
                     }.clipShape(Circle())
-                    .offset(x:80, y:-200)
+                    //.offset(x:80, y:-200)
+                    .offset(x: 90, y: -235)
                 
                 //BUTTON BREAST
                 Button(action: {
@@ -68,11 +70,12 @@ struct ChapterOneView2: View {
                     checkNavigation()
                   
                     
-                            }) {Text("XXXX")
+                            }) {Text("   ")
                     }.sheet(isPresented: self.$show_modalB) {
                         ModalViewB()
                     }.clipShape(Circle())
-                    .offset(x:80, y:-120)
+                    //.offset(x:80, y:-120)
+                    .offset(x:100, y:-170)
                 
             }
             .navigationBarTitleDisplayMode(.inline)
