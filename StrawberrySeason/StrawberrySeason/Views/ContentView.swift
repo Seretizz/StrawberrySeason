@@ -51,7 +51,7 @@ struct ContentView: View {
                            /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
                        }
                            .frame(width: 130, height: 50)
-                           .background(Color(.gray))
+                           .background(.gray)
                            .foregroundColor(.white)
                            .clipShape(Capsule())
                            .shadow(radius: 5.0)
